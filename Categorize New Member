@@ -1,0 +1,9 @@
+def openOrSenior(data):
+    member_types = []
+    for member in data:
+        if member[0] > 54 and 7 < member[1] < 27:
+            member_types.append("Senior")
+        else:
+            member_types.append("Open")
+    return member_types
+    
